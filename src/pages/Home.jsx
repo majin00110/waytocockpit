@@ -19,7 +19,7 @@ const Home = () => {
     <div>
       {/* Section 1 */}
       <div className="relative gap-8 mx-auto flex flex-col w-11/12 max-w-maxContent items-center text-white justify-between">
-        {/* Become an instructor button */}
+        {/* Become an intructor button */}
         <Link to={"/signup"}>
           <div className="group mt-16 p-1 mx-auto rounded-full bg-richblack-800 font-bold text-richblack-200 drop-shadow-[0_1.5px_rgba(255,255,255,0.25)] transition-all duration-200 hover:scale-95 w-fit">
             <div className="flex items-center rounded-full px-10 py-[5px] transition-all duration-200 group-hover:bg-richblack-900 gap-2">
@@ -32,12 +32,15 @@ const Home = () => {
         {/* Heading */}
         <div className="text-center text-4xl font-semibold">
           Empower Your Future With
-          <HighlightText text={"Pilot Training Skills"} />
+          <HighlightText text={"Coding Skills"} />
         </div>
 
         {/* Sub Heading */}
         <div className="-mt-3 text-center w-[90%] mx-auto text-lg font-bold text-richblack-300">
-          With our online pilot training courses, you can learn at your own pace, from anywhere in the world, and get access to a wealth of resources, including hands-on projects, quizzes, and personalized feedback from instructors.
+          With our online coding courses, you can learn at your own pace, from
+          anywhere in the world, and get access to a wealth of resources,
+          including hands-on projects, quizzes, and personalized feedback from
+          instructors.
         </div>
 
         {/* CTA buttons */}
@@ -69,12 +72,12 @@ const Home = () => {
             heading={
               <div className="text-4xl font-semibold">
                 Unlock your
-                <HighlightText text={"pilot training potential "} />
+                <HighlightText text={"coding potential "} />
                 with our online courses
               </div>
             }
             subheading={
-              "Our courses are designed and taught by industry experts who have years of experience in aviation and are passionate about sharing their knowledge with you."
+              "Our courses are designed and taught by industry experts who have years of experience in coding and are passionate about sharing their knowledge with you."
             }
             ctabtn1={{
               active: true,
@@ -99,12 +102,11 @@ const Home = () => {
             heading={
               <div className="w-[100%] lg:w-[50%] text-4xl font-semibold">
                 Start
-                <HighlightText text={"pilot training "} />
-                in seconds
+                <HighlightText text={"coding in seconds "} />
               </div>
             }
             subheading={
-              "Go ahead, give it a try. Our hands-on learning environment means you'll be mastering real aviation skills from your very first lesson."
+              "Go ahead, give it a try. Our hands-on learning environment means you'll be writing real code from your very first lesson."
             }
             ctabtn1={{
               active: true,
@@ -150,11 +152,13 @@ const Home = () => {
           <div className="lg:mt-20 mb-10 mt-[100px] flex flex-col lg:flex-row justify-between gap-7 lg:gap-0">
             <div className="text-4xl font-semibold lg:w-[45%]">
               Get the skills you need for a
-              <HighlightText text={"career in aviation"} />
+              <HighlightText text={"job that is in demand"} />
             </div>
             <div className="flex flex-col gap-10 lg:w-[40%] items-start">
               <div className="text-[16px]">
-                The aviation industry demands skilled professionals. Gain the expertise required to excel in this exciting field.
+                The modern StudyNotion is the dictates its own terms. Today, to
+                be a competitive specialist requires more than professional
+                skills.
               </div>
               <CTAButton active={true} linkto={"/login"}>
                 <div>Learn More</div>
