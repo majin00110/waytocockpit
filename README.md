@@ -72,6 +72,29 @@ Want to play with StudyNotion on your machine? Easy peasy:
 
 1. Set up a MongoDB database and get the connection URL.
 2. Create a `.env` file in the main folder with these inside:
+PORT=4000
+
+DATABASE_URL="mongodb://127.0.0.1:27017/StudyNotion"
+
+JWT_SECRET="YourSecretKeyHere"
+
+MAIL_HOST=smtp.gmail.com
+
+MAIL_USER=your-email@gmail.com
+
+MAIL_PASS=your-email-password
+
+CLOUD_NAME=your-cloudinary-cloud-name
+
+API_KEY=your-cloudinary-api-key
+
+API_SECRET=your-cloudinary-api-secret
+
+FOLDER_NAME="StudyNotion"
+
+RAZORPAY_KEY=your-razorpay-key
+
+RAZORPAY_SECRET=your-razorpay-secret
 
 
 
